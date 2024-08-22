@@ -1,0 +1,12 @@
+.navbar {
+    background-image: linear-gradient(to left, #111110, #0e0e0d, #0b0b0a, #070806, #030403) !important;
+}
+
+.navbar a {
+    color: #f4f2f2;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+    box-shadow: 1px 1px 20px 1px rgba(255, 255, 255, 0.153);
+}
