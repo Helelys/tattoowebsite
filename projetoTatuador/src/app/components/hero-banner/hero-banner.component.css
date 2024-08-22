@@ -1,0 +1,49 @@
+#carouselExampleCaptions {
+    width: 100% !important;  /* Defina a largura desejada */
+    height: 80vh !important; /* Defina a altura desejada */
+    margin: auto !important;  /* Centraliza o carrossel */
+}
+
+#carouselExampleCaptions .carousel-inner {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#carouselExampleCaptions .carousel-inner img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;  /* Mantém a imagem ajustada dentro do carrossel */
+}
+
+#carouselExampleCaptions .carousel-caption {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    width: 100% !important; /* Faz a legenda ocupar toda a largura */
+}
+
+@media (max-width: 1024px) {
+    #carouselExampleCaptions {
+        height: 60vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions {
+        height: 50vh !important;
+    }
+}
+
+
+h5 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 70px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
