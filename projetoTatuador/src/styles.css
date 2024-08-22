@@ -7,3 +7,8 @@
 /* Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*   font-family: "Montserrat", sans-serif; */
+
+body {
+    background-image: linear-gradient(to right bottom, #1d1d1d, #1a1a1b, #181818, #161516, #131213, #1d1b20, #23252f, #24303e, #264d62, #176e82, #00909b, #12b3a9);
+}
+

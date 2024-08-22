@@ -1,0 +1,9 @@
+.container {
+    height: 60vh;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    align-items: center;
+    
+}
